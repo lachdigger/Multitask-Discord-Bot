@@ -1,0 +1,24 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "A personal discord bot that can perform tasks to help out people on a discord sever.",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "LachScrigger",
+  "license": "ISC",
+  "dependencies": {
+    "@keyv/postgres": "^1.0.16",
+    "discord-reply": "^0.1.2",
+    "discord.js": "^12.5.2",
+    "keyv": "^4.0.3",
+    "keyv-file": "^0.2.0",
+    "minecraft-server-util": "^3.4.4",
+    "ms": "^2.1.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
